@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "disaster-tweets"
+version = "0.1.0"
+description = ""
+authors = ["ninjas77 <sanjinjf7@gmail.com>"]
+readme = "README.md"
+packages = [{include = "disaster_tweets"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^1.4.4"
+scipy = "^1.9.1"
+sklearn = "^0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.15.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
